@@ -17,7 +17,8 @@ export default class Busca extends Component {
 
     buscar() {               
         
-        let url = `http://localhost:5000/${this.state.nome_autor}`
+        const base_url = process.env.REACT_APP_API_URL
+        let url = `${base_url}/${this.state.nome_autor}`
 
         fetch(url)
         .then(res =>{
