@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h2>Search books from your favorite author!</h2>
-        <h3 id="version">v 1.0</h3>
+        <h3 id="version">v 1.1</h3>
         <img src={logo} className="App-logo" alt="logo" />
         <Busca></Busca>                 
       </header>
