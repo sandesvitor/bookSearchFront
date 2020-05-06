@@ -101,7 +101,7 @@ export default class Busca extends Component {
                 </div>
             
                 {this.state.showButton
-                    ? <div><button id="botao-download" onClick={()=>this.downloadTitles()}>Download .CVS</button></div>
+                    ? <div><button id="botao-download" onClick={()=>this.downloadTitles()}>Download .CSV</button></div>
                     : null
                 }                    
             
