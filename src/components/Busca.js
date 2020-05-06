@@ -17,8 +17,8 @@ export default class Busca extends Component {
 
     buscar() {               
         
-        const base_url = process.env.REACT_APP_API_URL
-        let url = `${base_url}/${this.state.nome_autor}`
+        //const base_url = process.env.REACT_APP_API_URL
+        let url = `https://searchtitles-backend.herokuapp.com/${this.state.nome_autor}`
 
         fetch(url)
         .then(res =>{
